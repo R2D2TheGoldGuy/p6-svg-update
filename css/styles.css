@@ -224,6 +224,13 @@ footer {
   Dog Section - <main> section
 --------------------------------- */
 
+.dog-hover {
+	transition: .5s ease-in-out;
+}
+.dog-hover:hover {
+	transform: rotate(15deg) scale(1.05,1.05);
+}
+
 #red,
 #fawn,
 #sable,
@@ -256,9 +263,8 @@ footer {
 .blacktan-fill-st3{fill:#2D3339;}
 
 @media screen and (max-width: 420px) {
-
   /* Project Requirements */
-  .logo-st1 {
+  .logo-letters {
   display: none;
   }
   .type-lockup {
